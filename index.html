@@ -33,20 +33,23 @@
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
-    <!-- Scrollbar Custom CSS -->
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 <body>
 
-<header class="site-header sticky-top">
-    <button class="openbtn" onclick="clickNav()">&#9776;</button>
+<header class="site-header sticky-top d-flex flex-row-reverse">
+    <i id="sidebarButton" class="bi-list icon" onclick="clickNav()"></i>
 </header>
 
 <div id="mySidebar" class="sidebar">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <div class="link text-end">
+        <a href="#">Offers</a>
+        <a href="#">References</a>
+        <a href="#">Equipment</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </div>
 </div>
 
 

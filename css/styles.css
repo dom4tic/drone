@@ -58,16 +58,15 @@
 
 /* The sidebar menu */
 .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    background-color: rgba(247, 247, 247, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
 /* The sidebar links */
@@ -95,17 +94,22 @@
 }
 
 /* The button used to open the sidebar */
-.openbtn {
-    font-size: 20px;
+.icon {
     cursor: pointer;
-    background-color: #111;
     color: white;
-    padding: 10px 15px;
-    border: none;
+    font-size: 32px;
+    width: 42px;
 }
 
-.openbtn:hover {
-    background-color: #444;
+.link {
+    position:absolute;
+    bottom:0;
+    right: 25px;
+}
+
+.link, .link a {
+    width: 100%;
+    white-space: nowrap;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -113,7 +117,6 @@
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
 }
-
 
 /*
  * Extra utilities
