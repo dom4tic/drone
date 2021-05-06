@@ -1,0 +1,8 @@
+
+    function clickNav() {
+        if (document.getElementById("mySidebar").style.width == '250px') {
+            document.getElementById("mySidebar").style.width = "0";
+        } else {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+    }
