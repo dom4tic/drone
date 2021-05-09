@@ -139,8 +139,6 @@
 .icon-card{
     display: flex;
     flex-direction: row;
-    background: rgba(247, 247, 247, 0.8);
-    border-radius: 10px;
     padding: 20px;
     margin: 15px 30px;
 }
