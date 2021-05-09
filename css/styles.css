@@ -7,7 +7,7 @@
  */
 
 .site-header {
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, 0);
 }
 .site-header a {
     color: #8e8e8e;
@@ -64,7 +64,7 @@
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: rgba(247, 247, 247, 0.8);
+    background-color: rgba(247, 247, 247, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -74,26 +74,16 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #212529;
     display: block;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: blue;
 }
 
-/* Position and style the close button (top right corner) */
-.sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-/* The button used to open the sidebar */
+/* The button used to trigger the sidebar */
 .icon {
     cursor: pointer;
     color: white;
@@ -101,6 +91,7 @@
     width: 42px;
 }
 
+/* The links in the Sidebar*/
 .link {
     position:absolute;
     bottom:0;
