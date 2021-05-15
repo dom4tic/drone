@@ -113,6 +113,11 @@
     padding: 20px;
 }
 
+.video {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Offers*/
 
