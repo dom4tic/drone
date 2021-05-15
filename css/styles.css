@@ -115,10 +115,7 @@
 }
 
 .icon-card{
-    display: flex;
-    flex-direction: row;
     padding: 20px;
-    margin: 15px 30px;
 }
 
 .icon-card-text{
