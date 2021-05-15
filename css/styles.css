@@ -103,7 +103,7 @@
 
 .card-flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
@@ -128,13 +128,30 @@
 
 
 .icon-card-text{
-    padding: 20px 20px 6px 14px;
     text-align: left;
 }
 
-.ellipse{
+.ellipse-bronze {
     background: radial-gradient(50% 50% at 50% 50%, #B08D57 0%, rgba(156, 122, 60, 0.95) 31.77%, rgba(137, 94, 26, 0.95)
     68.75%, #804A00 100%);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ellipse-silver {
+    background: radial-gradient(50% 50% at 50% 50%, #F6F9FC 0%, rgba(241, 244, 246, 0.95) 5.21%, rgba(200, 202, 202, 0.9)
+    50.52%, #C4C4C4 100%);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ellipse-gold {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(241, 200, 76, 0.9) 0%, rgba(234, 186, 61, 0.9) 29.69%,
+    rgba(218, 165, 32, 0.9) 74.48%, rgba(184, 134, 11, 0.85) 100%);
     box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
     height: 50px;
     width: 50px;
