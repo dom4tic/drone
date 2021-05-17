@@ -1,3 +1,4 @@
+/*Fonts*/
 @font-face {
     font-family: 'signikabold';
     src: url('fonts/signika-bold-webfont.woff') format('woff');
@@ -13,36 +14,24 @@
 
 }
 
-
 html, body, main {
     height: 100%;
     margin: 0;
 }
 
 
-.container {
-}
-
-/*
- * Custom translucent site header
- */
-
+/*Custom translucent site header*/
 .site-header {
     background-color: rgba(0, 0, 0, 0);
     height: 0px;
 }
 
-/*
-* Landing page title
-*/
-
+/*Landing page title*/
 .display-1 {
     color: #FFFFFF;
 }
 
-/*
-* sidebar
-*/
+/*sidebar*/
 
 /* The sidebar menu */
 .sidebar {
@@ -101,11 +90,14 @@ html, body, main {
 
 /*Components*/
 .wrapper {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 }
 
 .bg-image {
     background-image: url("img/test.jpg");
+    linear-gradient(162.44deg, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
     z-index: -1;
 }
 
@@ -119,9 +111,15 @@ html, body, main {
     flex: none;
 }
 
-.page-intro {
+.welcome {
     font-family: signikabold;
     font-size: 64px;
+    line-height: 79px;
+}
+
+.page-intro {
+    font-family: signikabold;
+    font-size: 42px;
     line-height: 79px;
 }
 
@@ -130,6 +128,8 @@ html, body, main {
 }
 
 .card-default {
+    font-family: nunitoregular;
+    color: #000000;
     background: rgba(247, 247, 247, 0.8);
     border-radius: 10px;
     padding: 20px;
@@ -157,8 +157,11 @@ html, body, main {
 /*Offers*/
 
 .page-name {
+    font-family: nunitoregular;
+    font-size: 24px;
+    line-height: 33px;;
     text-align: left;
-    margin: 33px 0 0 30px;
+
 }
 
 
