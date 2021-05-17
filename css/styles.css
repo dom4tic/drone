@@ -11,7 +11,12 @@
     src: url('fonts/nunito-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+h3 {
+    font-family: signikabold;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 html, body, main {
@@ -78,6 +83,9 @@ html, body, main {
 
 /* The links in the Sidebar*/
 .link {
+    font-family: nunitoregular;
+    font-size: 24px;
+    line-height: 33px;
     position:absolute;
     bottom:0;
     right: 25px;
@@ -101,7 +109,17 @@ html, body, main {
     z-index: -1;
 }
 
+.contact-button {
+    font-family: nunitoregular;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    color: #000;
+}
+
 .more-button{
+    font-family: nunitoregular;
+    font-size: 18px;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 30px;
     color: #f7f7f7;
@@ -123,6 +141,14 @@ html, body, main {
     line-height: 79px;
 }
 
+.page-name {
+    font-family: nunitoregular;
+    font-size: 24px;
+    line-height: 33px;;
+    text-align: left;
+    margin: 30px 0;
+}
+
 .page-title {
     margin: 30px 0 35px 30px;
 }
@@ -138,6 +164,8 @@ html, body, main {
 .card-flex {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 
@@ -153,28 +181,29 @@ html, body, main {
     justify-content: center;
 }
 
-
-/*Offers*/
-
-.page-name {
-    font-family: nunitoregular;
-    font-size: 24px;
-    line-height: 33px;;
+.card-text{
     text-align: left;
-
+    padding-top: 30px;
 }
 
+.picture-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
 
-.icon-card-text{
-    text-align: left;
+.picture {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .ellipse-bronze {
     background: radial-gradient(50% 50% at 50% 50%, #B08D57 0%, rgba(156, 122, 60, 0.95) 31.77%, rgba(137, 94, 26, 0.95)
     68.75%, #804A00 100%);
     box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -182,8 +211,8 @@ html, body, main {
     background: radial-gradient(50% 50% at 50% 50%, #F6F9FC 0%, rgba(241, 244, 246, 0.95) 5.21%, rgba(200, 202, 202, 0.9)
     50.52%, #C4C4C4 100%);
     box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -191,8 +220,8 @@ html, body, main {
     background: radial-gradient(50% 50% at 50% 50%, rgba(241, 200, 76, 0.9) 0%, rgba(234, 186, 61, 0.9) 29.69%,
     rgba(218, 165, 32, 0.9) 74.48%, rgba(184, 134, 11, 0.85) 100%);
     box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
