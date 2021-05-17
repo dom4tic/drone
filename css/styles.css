@@ -1,6 +1,12 @@
 @import url("https://fonts.google.com/specimen/Signika?query=signik");
 @import url(https://fonts.google.com/specimen/Nunito?query=Nuni);
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
 .container {
 }
 
@@ -81,6 +87,10 @@
 }
 
 /*Components*/
+.wrapper {
+    height: 100vh;
+}
+
 .more-button{
     background: rgba(0, 0, 0, 0.8);
     border-radius: 30px;
