@@ -1,7 +1,20 @@
-@import url("https://fonts.google.com/specimen/Signika?query=signik");
-@import url(https://fonts.google.com/specimen/Nunito?query=Nuni);
+@font-face {
+    font-family: 'signikabold';
+    src: url('fonts/signika-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-html, body {
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('fonts/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body, main {
     height: 100%;
     margin: 0;
 }
@@ -91,6 +104,11 @@ html, body {
     height: 100vh;
 }
 
+.bg-image {
+    background-image: url("img/test.jpg");
+    z-index: -1;
+}
+
 .more-button{
     background: rgba(0, 0, 0, 0.8);
     border-radius: 30px;
@@ -99,6 +117,12 @@ html, body {
 
 .button-section{
     flex: none;
+}
+
+.page-intro {
+    font-family: signikabold;
+    font-size: 64px;
+    line-height: 79px;
 }
 
 .page-title {
@@ -118,6 +142,7 @@ html, body {
 
 
 .text-intro {
+    font-family: nunitoregular;
     font-size: 18px;
     margin: 15px 30px 25px 30px;
     padding: 20px;
