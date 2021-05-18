@@ -138,7 +138,7 @@ html, body, main {
     flex: none;
 }
 
-.welcome {
+#welcome {
     font-family: signikabold;
     font-size: 64px;
     line-height: 79px;
@@ -264,8 +264,6 @@ html, body, main {
 .flex-equal > * {
     flex: 1;
 }
-@media (min-width: 768px) {
-    .flex-md-equal > * {
-        flex: 1;
-    }
+@media (min-width: @screen-sm-min) {
+
 }
