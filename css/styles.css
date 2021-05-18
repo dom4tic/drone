@@ -22,10 +22,30 @@ h1 {
     color: #f7f7f7;
 }
 
+h2 {
+    font-family: signikabold;
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 52px;
+    color: #f7f7f7;
+}
+
 h3 {
     font-family: signikabold;
     font-size: 24px;
     line-height: 30px;
+}
+
+h4 {
+    font-family: nunitoregular;
+    font-size: 1.5rem;
+    line-height: 33px;
+}
+
+p {
+    font-family: nunitoregular;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 1);
 }
 
 html, body, main {
@@ -241,12 +261,6 @@ html, body, main {
 .icon-style {
     width: 50px;
     height: 50px;
-}
-
-.contact-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 /*
