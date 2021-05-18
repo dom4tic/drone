@@ -142,6 +142,7 @@ html, body, main {
     font-family: signikabold;
     font-size: 64px;
     line-height: 79px;
+    min-height: 160px;
 }
 
 .page-intro {
