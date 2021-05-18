@@ -97,17 +97,26 @@ html, body, main {
 }
 
 /*Components*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.bg-image {
-    background-image: url("img/test.jpg");
-    linear-gradient(162.44deg, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
-    z-index: -1;
-}
+/*.bg-image {*/
+/*    background-image: url("img/test.jpg");*/
+/*    linear-gradient(162.44deg, #000000 0%, rgba(0, 0, 0, 0.5) 100%);*/
+/*    z-index: -1;*/
+/*}*/
 
 .contact-button {
     font-family: nunitoregular;
