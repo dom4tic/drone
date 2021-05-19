@@ -18,7 +18,7 @@
     })
         .type("Welcome to")
         .pause(1000)
-        .type("<br> Drones")
+        .type("<br> Drones.")
         .pause(3000)
         .go();
 // });
