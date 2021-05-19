@@ -163,6 +163,10 @@ html, body, main {
     margin-right: 15px;
 }
 
+#welcome {
+    min-height: 160px;
+}
+
 .page-intro {
     font-family: signikabold;
     font-size: 42px;
