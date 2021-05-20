@@ -28,18 +28,21 @@ h2 {
     font-weight: bold;
     line-height: 52px;
     color: #f7f7f7;
+    margin-bottom: 15px;
 }
 
 h3 {
     font-family: signikabold;
     font-size: 24px;
     line-height: 30px;
+    color: rgba(0, 0, 0, 1);
 }
 
 h4 {
     font-family: nunitoregular;
     font-size: 1.5rem;
     line-height: 33px;
+    color: #f7f7f7;
 }
 
 p {
@@ -129,10 +132,16 @@ html, body, main {
     transform: translateX(calc((100% - 100vw) / 2));
 }
 
+/*html {*/
+/*    scroll-behavior: smooth;*/
+/*    scroll-snap-type: y mandatory;*/
+/*}*/
+
 .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    /*scroll-snap-align: start;*/
 }
 
 .contact-button {
@@ -319,9 +328,7 @@ html, body, main {
     flex: 1;
 }
 
-/*
- * drone svg animation
- */
+/*drone svg animation*/
 
 .icon-container {
     margin-top: 30%;
