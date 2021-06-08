@@ -100,10 +100,6 @@ html, body, main {
     height: 56px;
 }
 
-#toTop {
-    /*opacity: 0;*/
-}
-
 .icon-drone {
     fill: white;
 }
@@ -137,10 +133,18 @@ html, body, main {
     transform: translateX(calc((100% - 100vw) / 2));
 }
 
-/*html {*/
-/*    scroll-behavior: smooth;*/
-/*    scroll-snap-type: y mandatory;*/
-/*}*/
+body, html {
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 .drone-logo {
     min-width: 150px;
