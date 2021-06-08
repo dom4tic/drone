@@ -137,6 +137,13 @@ html, body, main {
 /*    scroll-snap-type: y mandatory;*/
 /*}*/
 
+.drone-logo {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .wrapper {
     flex:1 1 auto;
     flex-direction: column;
