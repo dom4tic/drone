@@ -164,7 +164,7 @@ html, body, main {
     color: #000;
 }
 
-.more-button{
+.more-button, #show {
     font-family: nunitoregular;
     font-size: 18px;
     background: rgba(0, 0, 0, 0.8);
