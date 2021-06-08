@@ -187,6 +187,7 @@ html, body, main {
 #welcome {
     display: flex;
     align-items: center;
+    height: 65vh;
 }
 
 .page-intro {
@@ -307,6 +308,7 @@ html, body, main {
     }
 }
 
+
 @media (min-width: 768px) {
     #myVideo {
         position: fixed;
@@ -318,7 +320,7 @@ html, body, main {
     }
 
     #welcome {
-        height: 60v h;
+        height: 65vh;
     }
 }
 
