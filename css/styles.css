@@ -88,6 +88,7 @@ html, body, main {
 
 .sidebar a:hover {
     color: rgba(0, 0, 0, 1);
+    font-weight: bold;
 }
 
 /* The button used to trigger the sidebar */
