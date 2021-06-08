@@ -96,7 +96,8 @@ html, body, main {
     cursor: pointer;
     color: white;
     font-size: 42px;
-    width: 52px;
+    width: 56px;
+    height: 56px;
 }
 
 .icon-drone {
@@ -132,10 +133,10 @@ html, body, main {
     transform: translateX(calc((100% - 100vw) / 2));
 }
 
-/*html {*/
-/*    scroll-behavior: smooth;*/
-/*    scroll-snap-type: y mandatory;*/
-/*}*/
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
 
 .drone-logo {
     min-width: 150px;
@@ -148,7 +149,7 @@ html, body, main {
     flex:1 1 auto;
     flex-direction: column;
     min-height: 100vh;
-    /*scroll-snap-align: start;*/
+    scroll-snap-align: start;
 }
 
 .contact-button {
@@ -313,7 +314,7 @@ html, body, main {
     }
 
     #welcome {
-        height: 60vh;
+        height: 60v h;
     }
 }
 
@@ -345,6 +346,10 @@ html, body, main {
 
     #welcome {
         height: 70vh;
+    }
+
+    .carousel {
+        padding: 0 200px
     }
 }
 
