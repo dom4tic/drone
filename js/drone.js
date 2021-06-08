@@ -24,6 +24,28 @@ $(document).ready(function() {
         }
     });
 
+    $(window).scroll( function(){
+
+        /* Check the location of each desired element */
+        $('#home').each( function(i){
+
+            var top_of_object = $(this).offset().top + $(this).outerHeight();
+            var top_of_window = $(window).scrollTop();
+            console.log(top_of_object);
+            console.log(top_of_window);
+
+            if (top_of_window >= top_of_object) {
+                console.log('show');
+                $("#toTop").show(500);
+            } else {
+                console.log('hide');
+                $("#toTop").hide(500);
+            }
+
+        });
+
+    });
+
     new TypeIt("#welcome", {
         speed: 75,
         loop: true

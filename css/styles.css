@@ -100,6 +100,10 @@ html, body, main {
     height: 56px;
 }
 
+#toTop {
+    /*opacity: 0;*/
+}
+
 .icon-drone {
     fill: white;
 }
