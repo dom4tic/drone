@@ -182,7 +182,6 @@ html, body, main {
 #welcome {
     display: flex;
     align-items: center;
-    height: 70vh;
 }
 
 .page-intro {
@@ -291,8 +290,16 @@ html, body, main {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+
+    #welcome {
+        height: 60vh;
+    }
 }
 
 @media (min-width: 768px) {
@@ -303,6 +310,10 @@ html, body, main {
         min-width: 100%;
         min-height: 100%;
         z-index: -1;
+    }
+
+    #welcome {
+        height: 60vh;
     }
 }
 
@@ -315,6 +326,10 @@ html, body, main {
         min-height: 100%;
         z-index: -1;
     }
+
+    #welcome {
+        height: 65vh;
+    }
 }
 
 @media (min-width:1200px) {
@@ -326,6 +341,10 @@ html, body, main {
         min-width: 100%;
         min-height: 100%;
         z-index: -1;
+    }
+
+    #welcome {
+        height: 70vh;
     }
 }
 
