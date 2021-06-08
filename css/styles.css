@@ -51,8 +51,8 @@ p {
 html, body, main {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
-
 
 /*Custom translucent site header*/
 .site-header {
@@ -92,8 +92,8 @@ html, body, main {
 .icon {
     cursor: pointer;
     color: white;
-    font-size: 32px;
-    width: 42px;
+    font-size: 42px;
+    width: 52px;
 }
 
 .icon-drone {
@@ -130,7 +130,7 @@ html, body, main {
 }
 
 .wrapper {
-    display: flex;
+    flex:1 1 auto;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -324,7 +324,7 @@ html, body, main {
  */
 
 .icon-container {
-    margin-top: 30%;
+    /*margin-top: 30%;*/
 }
 
 #eBFgsAjHTPf1 {
