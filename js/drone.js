@@ -45,9 +45,6 @@ $(document).ready(function() {
             var top_of_object = $(this).offset().top + $(this).outerHeight();
             var top_of_window = $(window).scrollTop();
 
-            console.log(top_of_object);
-            console.log(top_of_window);
-
             if (top_of_window >= top_of_object) {
                 $("#toTop").show(500);
             } else {
