@@ -146,6 +146,11 @@ html {
     scrollbar-width: none;
 }
 
+body {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+}
+
 .drone-logo {
     min-width: 150px;
     min-height: 150px;
