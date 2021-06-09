@@ -24,26 +24,33 @@ $(document).ready(function() {
         }
     });
 
-    $(window).scroll( function(){
+    $(".more-button").click(function () {
+        console.log(this.className);
+        if (this.className.includes('plus')) {
+            console.log('minus');
+            $(this).html('<img class="plus-button-icon" src="css/img/minus.png" alt="plus">Learn less');
+            $(this).removeClass('plus');
+            $(this).addClass('minus');
 
-        /* Check the location of each desired element */
+        } else if (this.className.includes('minus')) {
+            console.log('plus');
+            $(this).html('<img class="plus-button-icon" src="css/img/plus.png" alt="plus">Learn more');
+            $(this).removeClass('minus');
+            $(this).addClass('plus');
+        }
+    });
+
+    $('body').scroll( function(){
         $('#home').each( function(i){
-
             var top_of_object = $(this).offset().top + $(this).outerHeight();
             var top_of_window = $(window).scrollTop();
-            console.log(top_of_object);
-            console.log(top_of_window);
 
             if (top_of_window >= top_of_object) {
-                console.log('show');
                 $("#toTop").show(500);
             } else {
-                console.log('hide');
                 $("#toTop").hide(500);
             }
-
         });
-
     });
 
     new TypeIt("#welcome", {
