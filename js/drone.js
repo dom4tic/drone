@@ -25,15 +25,12 @@ $(document).ready(function() {
     });
 
     $(".more-button").click(function () {
-        console.log(this.className);
         if (this.className.includes('plus')) {
-            console.log('minus');
             $(this).html('<img class="plus-button-icon" src="css/img/minus.png" alt="plus">Learn less');
             $(this).removeClass('plus');
             $(this).addClass('minus');
 
         } else if (this.className.includes('minus')) {
-            console.log('plus');
             $(this).html('<img class="plus-button-icon" src="css/img/plus.png" alt="plus">Learn more');
             $(this).removeClass('minus');
             $(this).addClass('plus');
