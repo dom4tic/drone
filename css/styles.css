@@ -197,7 +197,7 @@ body {
 #welcome {
     display: flex;
     align-items: center;
-    height: 65vh;
+    height: 50vh;
 }
 
 .page-intro {
@@ -289,10 +289,6 @@ body {
     .sidebar a {
         font-size: 18px;
     }
-
-    #welcome {
-        height: 60vh;
-    }
 }
 
 
@@ -305,10 +301,6 @@ body {
         min-height: 100%;
         z-index: -1;
     }
-
-    #welcome {
-        height: 65vh;
-    }
 }
 
 @media (min-width: 992px) {
@@ -319,10 +311,6 @@ body {
         min-width: 100%;
         min-height: 100%;
         z-index: -1;
-    }
-
-    #welcome {
-        height: 65vh;
     }
 }
 
@@ -337,12 +325,26 @@ body {
         z-index: -1;
     }
 
-    #welcome {
-        height: 70vh;
-    }
-
     .carousel {
         padding: 0 200px
+    }
+}
+
+@media (min-height:680px) {
+    #welcome {
+        height: 55vh;
+    }
+}
+
+@media (min-height:1000px) {
+    #welcome {
+        height: 65vh;
+    }
+}
+
+@media (min-height:1400px) {
+    #welcome {
+        height: 75vh;
     }
 }
 
